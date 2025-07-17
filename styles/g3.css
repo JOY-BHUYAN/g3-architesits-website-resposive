@@ -106,3 +106,17 @@
     font-size: 1rem;
     font-weight: 400;
 }
+
+.banner-image{
+    width: 100%;
+}
+
+/* responsive media query */
+
+@media screen and (max-width:576px) {
+
+    .navbar, .nav-links{
+        flex-direction: column;
+    }
+    
+}
